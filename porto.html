@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Muhammad Faisal Maliki</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Melancholic background colors */
+            background-color: #1a202c; /* Dark gray/blue */
+            color: #e2e8f0; /* Light gray text */
+        }
+        .section-title {
+            color: #a0aec0; /* Muted blue-gray for titles */
+        }
+        .card {
+            background-color: #2d3748; /* Slightly lighter dark gray for cards */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        .btn {
+            background-color: #4a5568; /* Darker button color */
+            color: #e2e8f0;
+        }
+        .btn:hover {
+            background-color: #616e80; /* Lighter on hover */
+        }
+        .text-accent {
+            color: #90cdf4; /* Muted light blue for accents */
+        }
+        /* Custom scrollbar for melancholic feel */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #2d3748;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #616e80;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #718096;
+        }
+    </style>
+</head>
+<body class="leading-relaxed">
+    <div class="min-h-screen flex flex-col items-center py-8 px-4 sm:px-6 lg:px-8">
+        <!-- Header Section -->
+        <header class="w-full max-w-4xl text-center mb-12">
+            <h1 class="text-5xl sm:text-6xl font-bold text-accent mb-4">Muhammad Faisal Maliki</h1>
+            <p class="text-xl sm:text-2xl text-gray-400">Siswa SMK Wikrama Bogor</p>
+        </header>
+
+        <!-- About Me Section -->
+        <section id="tentang-saya" class="w-full max-w-4xl mb-16 p-6 card rounded-xl">
+            <h2 class="text-3xl font-semibold section-title mb-6">Tentang Saya</h2>
+            <div class="flex flex-col sm:flex-row items-center sm:items-start gap-8">
+                <!-- Placeholder Image -->
+                <img src="Screenshot 2025-05-31 072554.png" alt="Foto Profil Muhammad Faisal Maliki" class="w-32 h-32 rounded-full object-cover border-4 border-accent shadow-lg flex-shrink-0">
+                <div>
+                    <p class="text-lg text-gray-300 mb-4">
+                        Saya adalah siswa SMK Wikrama jurusan PPLG dengan minat besar di bidang teknologi dan pemrograman. Terbiasa bekerja secara tim maupun mandiri, serta memiliki dasar kuat dalam HTML, CSS, JavaScript, dan PHP. Saya juga berpengalaman menggunakan Laravel, React JS, dan Flutter untuk pengembangan web dan aplikasi mobile. Dengan semangat belajar tinggi dan etos kerja yang kuat, saya siap terus berkembang dan memberikan kontribusi positif di lingkungan profesional.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 text-gray-400 text-md">
+                        <p>📧 <a href="mailto:faisall2maliki@gmail.com" class="hover:underline text-accent">faisall2maliki@gmail.com</a></p>
+                        <p>📸 <span class="text-accent">ical.malek</span></p>
+                        <p>📞 <a href="tel:+6285716979535" class="hover:underline text-accent">+62 857-1697-9535</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8">
+                <h3 class="text-2xl font-semibold section-title mb-4">Minat</h3>
+                <ul class="flex flex-wrap gap-4 text-gray-300 text-lg">
+                    <li class="px-3 py-1 rounded-full bg-gray-700">Puisi</li>
+                    <li class="px-3 py-1 rounded-full bg-gray-700">Novel Artikel</li>
+                    <li class="px-3 py-1 rounded-full bg-gray-700">Berpetualang</li>
+                    <li class="px-3 py-1 rounded-full bg-gray-700">Musik</li>
+                    <li class="px-3 py-1 rounded-full bg-gray-700">Permainan</li>
+                    <li class="px-3 py-1 rounded-full bg-gray-700">Jalan-jalan</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="keterampilan" class="w-full max-w-4xl mb-16 p-6 card rounded-xl">
+            <h2 class="text-3xl font-semibold section-title mb-6">Keterampilan</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-semibold text-accent mb-4">Teknis</h3>
+                    <ul class="list-disc list-inside space-y-2 text-lg text-gray-300">
+                        <li>Bahasa Pemrograman: HTML, CSS, JavaScript, PHP</li>
+                        <li>Database: MySQL</li>
+                        <li>Framework & Tools: Laravel, ReactJS, Flutter, Git</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-accent mb-4">Soft Skill</h3>
+                    <ul class="list-disc list-inside space-y-2 text-lg text-gray-300">
+                        <li>Problem Solving</li>
+                        <li>Kerja Tim dan Kolaborasi</li>
+                        <li>Komunikasi yang Baik & Public Speaking</li>
+                        <li>Adaptif dan Siap Belajar Teknologi Baru</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience/Projects Section -->
+        <section id="pengalaman" class="w-full max-w-4xl mb-16 p-6 card rounded-xl">
+            <h2 class="text-3xl font-semibold section-title mb-6">Pengalaman & Proyek</h2>
+            <div class="space-y-6 text-lg text-gray-300">
+                <p>Sebagai siswa SMK jurusan PPLG/RPL, saya memiliki dasar kuat dalam pemrograman web seperti HTML, CSS, JavaScript, PHP, serta pengelolaan database MySQL.</p>
+                <p>Saya telah mengerjakan beberapa proyek seperti:</p>
+                <ul class="list-disc list-inside ml-4 space-y-2">
+                    <li>Website peminjaman buku</li>
+                    <li>Sistem peminjaman uang</li>
+                    <li>Website Marketplace</li>
+                    <li>Website pendeteksi Cuaca</li>
+                    <li>Website pembelian tiket konser</li>
+                </ul>
+                <p>Saya juga memiliki pengalaman dalam pengembangan antarmuka web menggunakan Laravel dan React JS, serta membangun aplikasi mobile lintas platform dengan Flutter. Pengalaman ini memperkuat kemampuan saya dalam menciptakan aplikasi yang fungsional dan user-friendly. Saya siap belajar lebih dalam dan memberikan kontribusi positif selama masa Praktik Kerja Lapangan.</p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="pendidikan" class="w-full max-w-4xl mb-16 p-6 card rounded-xl">
+            <h2 class="text-3xl font-semibold section-title mb-6">Pendidikan</h2>
+            <div class="space-y-8">
+                <div>
+                    <h3 class="text-2xl font-semibold text-accent mb-2">SMK Wikrama Bogor</h3>
+                    <p class="text-xl text-gray-300">Sekolah Menengah Atas - Jurusan PPLG</p>
+                    <p class="text-lg text-gray-400">2023 - Sekarang</p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-accent mb-2">Pondok Modern Darussalam Gontor</h3>
+                    <p class="text-xl text-gray-300">Sekolah Menengah Atas</p>
+                    <p class="text-lg text-gray-400">2022-2023</p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-accent mb-2">Pondok Tahfidz Al-Hikmah</h3>
+                    <p class="text-xl text-gray-300">Sekolah Menengah Pelajar</p>
+                    <p class="text-lg text-gray-400">2020-2022</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="w-full max-w-4xl text-center py-8 text-gray-500 text-sm">
+            <p>&copy; 2025 Muhammad Faisal Maliki</p>
+        </footer>
+    </div>
+</body>
+</html>
